@@ -3,6 +3,15 @@ body {
 }
 
 /* Containers */
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 
 .alert-container .col-12 {
     padding-left: 0;
@@ -58,6 +67,10 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 /* Block dividers */
 
 .block-divider {
@@ -69,6 +82,10 @@ body {
 
 .block-divider--orange {
     background-color: #f05f40;
+}
+
+.block-divider--white {
+    background-color: white;
 }
 
 .block-divider--short {
@@ -156,4 +173,25 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
 }
